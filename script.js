@@ -8,4 +8,8 @@ btn.addEventListener('click', funtion(){
     const randomNumber = 2;
     document.body.style.backgroundColor = colors [rambomNumber];
     color.textContent = colors [rambomNumber];
-})
+});
+
+function getRamdomNumber() {
+    return Math.floor(Math.random() * color.length);
+}
